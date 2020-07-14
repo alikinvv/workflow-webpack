@@ -10,6 +10,7 @@ module.exports = {
    * The first place Webpack looks to start building the bundle.
    */
   entry: [paths.src + '/js/index.js'],
+  resolve: { alias: { vue: 'vue/dist/vue.esm.js' } },
 
   /**
    * Output
