@@ -1,0 +1,30 @@
+@charset 'UTF-8';
+@import 'mixins';
+
+// @include font-face('fontName', '../fonts/fontPath/fontName', normal); 
+
+.icon {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	font-size: 30px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+	margin-top: 0;
+}
+
+.btn,
+input,
+textarea,
+button:focus {
+	outline: none;
+}
